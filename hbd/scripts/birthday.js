@@ -3,13 +3,13 @@
 // Animation GSAP timeline on load event
 window.addEventListener("load", () => {
   Swal.fire({
-    title: "Mau Pake Musik?",
+    title: "Welcome",
     // text: "You won't be able to revert this!",
     icon: "warning",
-    showCancelButton: true,
+    showCancelButton: false,
     confirmButtonColor: "#3085d6",
     cancelButtonColor: "#d33",
-    confirmButtonText: "Yes",
+    confirmButtonText: "Ok",
     cancelButtonText: "No",
   }).then((result) => {
     if (result.isConfirmed) {
