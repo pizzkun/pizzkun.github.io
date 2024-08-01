@@ -3,13 +3,13 @@
 // Animation GSAP timeline on load event
 window.addEventListener("load", () => {
   Swal.fire({
-    title: "Welcome",
+    title: "Apakah mau pake musik (silahkan kasih tau saya musik apa yang cocok, jika tidak cocok)",
     // text: "You won't be able to revert this!",
     icon: "warning",
-    showCancelButton: false,
+    showCancelButton: true,
     confirmButtonColor: "#3085d6",
     cancelButtonColor: "#d33",
-    confirmButtonText: "Ok",
+    confirmButtonText: "Yes",
     cancelButtonText: "No",
   }).then((result) => {
     if (result.isConfirmed) {
