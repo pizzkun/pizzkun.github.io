@@ -67,6 +67,7 @@ button[type="submit"]:hover {
   color: #ccc;
   margin: 10px 0;
   padding: 0 10px;
+  opacity: 0.5;
   text-align: center;
 }
 
